@@ -1,13 +1,15 @@
-<div class="card employee-card">
-    <div class="card-header">
-        <h2 class="card-title">{{ name }}</h2>
-        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>{{ role }}</h3>
+<!-- Intern Template with template literals -->
+
+<div class="card m-3 " style="width: 20rem;">
+    <div class="card-header text-white bg-primary">
+        <h3>${intern.name}</h3>
+        <h5>${intern.getRole()}</h5>
     </div>
-    <div class="card-body">
+    <div class="card-body bg-light text-dark">
         <ul class="list-group">
-            <li class="list-group-item">ID: {{ id }}</li>
-            <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-            <li class="list-group-item">School: {{ school }}</li>
+            <li class="list-group-item" style="font-size: 14px;">ID: ${intern.id}</li>
+            <li class="list-group-item" style="font-size: 14px;">Email: ${intern.email}</li>
+            <li class="list-group-item" style="font-size: 14px;">School: ${intern.school}</li>
         </ul>
     </div>
 </div>

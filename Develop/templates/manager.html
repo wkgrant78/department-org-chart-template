@@ -1,13 +1,13 @@
-<div class="card employee-card">
-    <div class="card-header">
-        <h2 class="card-title">{{ name }}</h2>
-        <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>{{ role }}</h3>
+<div class="card m-3 " style="width: 20rem;">
+    <div class="card-header text-white bg-primary">
+        <h3>${manager.name}</h3>
+        <h5>${manager.getRole()}</h5>
     </div>
-    <div class="card-body">
+    <div class="card-body bg-light text-dark">
         <ul class="list-group">
-            <li class="list-group-item">ID: {{ id }}</li>
-            <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-            <li class="list-group-item">Office number: {{ officeNumber }}</li>
+            <li class="list-group-item" style="font-size: 14px;">ID: ${manager.id}</li>
+            <li class="list-group-item" style="font-size: 14px;">Email: ${manager.email}</li>
+            <li class="list-group-item" style="font-size: 14px;">Office Number: ${manager.officeNumber}</li>
         </ul>
     </div>
 </div>
