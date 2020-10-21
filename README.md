@@ -36,7 +36,12 @@ The project must prompt the user to build an engineering and generate a `team.ht
 
 ### WALKTHROUGH VIDEO:
 
+![](teamBuilder.gif)
 
 ### GITHUB REPO URL:
 
 https://github.com/wkgrant78/OOP-Template-Engine---Employee-Summary
+
+### DEMO URL:
+
+https://drive.google.com/file/d/1ipCcaKPWiQx8beqgeB96LaRZtAawv1OS/view
