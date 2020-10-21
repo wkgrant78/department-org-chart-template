@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
     <title>Department Team</title>
 </head>
+
 <body>
     <div class="container-fluid">
-        <div class="row" style="background-color: #383B53; height: 130px;">
-            <p class="mx-auto my-auto" style="font-size: 40px; color: #ffffff;">Department Team</p>
+        <div class="row">
+            <div class="col-12 jumbotron mb-3 team-heading" style="background-color: #383B53; color:whitesmoke">
+                <h1 class="text-center">My Team</h1>
+            </div>
         </div>
-        
-        <div class="row mt-5">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <div class="row justify-content-center">
-
-                    <!-- Team HTML will be placed here using template literals -->
-                    
-<div class="card employee-card">
-    <div class="card-header bg-dark text-white">
-        <h3>John Doe</h3>
-        <h5>Engineer</h5>
     </div>
-    <div class="card-body">
-        <ul class="list-group">
-            <li class="list-group-item" style="font-size: 14px;">ID: 12</li>
-            <li class="list-group-item" style="font-size: 14px;">Email: <a href="johnd@email.com"> johnd@email.com</a></li>
-            <li class="list-group-item" style="font-size: 14px;">GitHub: <a href="https://github.com/JohnD" target="_blank" rel="noopener noreferrer">JohnD</a></li>        </ul>
-    </div>
-</div>
-
+    <div class="container">
+        <div class="row">
+            <div class="team-area col-12 d-flex justify-content-center">
+                
 <!-- Intern Template with template literals -->
 
 <div class="card m-3 " style="width: 20rem;">
     <div class="card-header text-white bg-info">
-        <h3>Jane Doe</h3>
-        <h5>Employee</h5>
+        <h2 class="card-title">John</h2>
+        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
+
     </div>
     <div class="card-body bg-light text-dark">
         <ul class="list-group">
-            <li class="list-group-item" style="font-size: 14px;">ID: 23</li>
-            <li class="list-group-item" style="font-size: 14px;">Email: <a href="janed@email.com"> janed@email.com</a></li>
+            <li class="list-group-item" style="font-size: 14px;">ID: 123</li>
+            <li class="list-group-item" style="font-size: 14px;">Email: <a href="john@email.com"> john@email.com</a></li>
             <li class="list-group-item" style="font-size: 14px;">School: UT</li>
         </ul>
     </div>
 </div>
 <div class="card m-3 " style="width: 20rem;">
+    <div class="card-header text-white bg-dark">
+        <h2>Jane</h2>
+        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item" style="font-size: 14px;">ID: 456</li>
+            <li class="list-group-item" style="font-size: 14px;">Email: <a href="jane@email.com"> jane@email.com</a></li>
+            <li class="list-group-item" style="font-size: 14px;">GitHub: <a href="https://github.com/JaneD" target="_blank" rel="noopener noreferrer">JaneD</a></li>        </ul>
+    </div>
+</div>
+
+<div class="card m-3 " style="width: 20rem;">
     <div class="card-header text-white bg-secondary">
-        <h3>Mark Doe</h3>
-        <h5>Manager</h5>
+        <h2 class="card-title">Steve</h2>
+        <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>Manager</h3>
+     
     </div>
     <div class="card-body bg-light text-dark">
         <ul class="list-group">
-            <li class="list-group-item" style="font-size: 14px;">ID: 34</li>
-            <li class="list-group-item" style="font-size: 14px;">Email: <a href="makrd@email.com"> makrd@email.com</a></li>
+            <li class="list-group-item" style="font-size: 14px;">ID: 789</li>
+            <li class="list-group-item" style="font-size: 14px;">Email: <a href="steve@email.com"> steve@email.com</a></li>
             <li class="list-group-item" style="font-size: 14px;">Office Number: 555-1234</li>
         </ul>
     </div>
 </div>
-
-                </div>
             </div>
-            <div class="col-md-2"></div>
-
         </div>
-
     </div>
 </body>
+
 </html>
