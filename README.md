@@ -38,6 +38,10 @@ The project must prompt the user to build an engineering and generate a `team.ht
 
 ![](teamBuilder.gif)
 
+### SCREENSHOT:
+
+<img src="screenshot.PNG" alt="screenshot">
+
 ### GITHUB REPO URL:
 
 https://github.com/wkgrant78/OOP-Template-Engine---Employee-Summary
